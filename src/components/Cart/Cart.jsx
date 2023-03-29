@@ -3,7 +3,7 @@ import './Cart.css'
 
 const Cart = ({cart}) => {
    // const {price,shipping}={cart}
-
+    console.log(cart)
     let Total=0;
     let Total_Shipping=0;
     let Tax=0;
