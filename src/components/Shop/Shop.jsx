@@ -13,11 +13,20 @@ const Shop = () => {
     },[])
     ///Products start
 
+    ///Contain data after pressing Button start
+     const [cart,setCart]=useState([])
+
     //Handle Any Single Product start
     const handleAddToCart=(product)=>{
-        console.log(product.name)
+        const newCart=[...cart,product]
+        setCart(newCart)
     }
     //HAndle Any Single Product end
+    ///Contain data after pressing Button end
+
+   
+
+
 
 
     return (
@@ -34,6 +43,7 @@ const Shop = () => {
 
             <div className='Cart_Container'>
                 <h4>Order Summery</h4>
+                <p>Selected Items: {cart.length} </p>
             </div>
         </div>
     );
