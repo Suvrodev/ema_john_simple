@@ -13,6 +13,12 @@ const Shop = () => {
     },[])
     ///Products start
 
+    //Handle Any Single Product start
+    const handleAddToCart=(product)=>{
+        console.log(product.name)
+    }
+    //HAndle Any Single Product end
+
 
     return (
         <div className='shop_container'>
@@ -21,6 +27,7 @@ const Shop = () => {
                  products.map(product=> <Product
                  key={product.id}
                  product={product}
+                 handleAddToCart={handleAddToCart}
                  ></Product> )
                }
             </div>
