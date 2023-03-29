@@ -33,6 +33,8 @@ const Shop = () => {
         const storedCart=getShoppingCart();
        // console.log(storedCart)
 
+       const SavedCart=[];
+
        ///Step-1: Get ID
        for(const id in storedCart){
           //console.log(id)
@@ -46,7 +48,12 @@ const Shop = () => {
             const quantity=storedCart[id];
             addedProduct.quantity=quantity;
             console.log(addedProduct)
+
+            ///Step-4: Add the added product into saved cart
+            SavedCart.push(addedProduct)
           }
+
+          setCart(SavedCart)
          
 
        }
