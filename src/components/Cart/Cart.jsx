@@ -10,8 +10,8 @@ const Cart = ({cart}) => {
     let quantity=0;
 
     for(const product of cart){
-        if(product.quantity===0) product.quantity=1;
-       // product.quantity=product.quantity||1;
+       if(product.quantity===0) product.quantity=1;
+       product.quantity=product.quantity||1;
         Total=Total+product.price* product.quantity;
         Total_Shipping+=product.shipping;
         quantity=quantity+product.quantity;
