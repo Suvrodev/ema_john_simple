@@ -4,3 +4,12 @@
     position: sticky;
     top: 0;
 }
+.btn_clear_cart{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #FF3030;
+    color: white;
+}
