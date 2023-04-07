@@ -12,6 +12,7 @@ import Home from './components/Layout/Home';
 import Orders from './components/Orders/Orders';
 import Inventory from './components/Inventory/Inventory';
 import MyLogin from './components/MyLogin/MyLogin';
+import cardProductsLoader from './Loader/cardProduct';
 
 
 
@@ -22,12 +23,13 @@ const router=createBrowserRouter([
     element: <Home></Home>,
     children: [
       {
-        path: '/',
+        path: '/Shop',
         element: <Shop></Shop>
       },
       {
         path: 'orders',
-        element: <Orders></Orders>
+        element: <Orders></Orders>,
+        loader: ()=>cardProductsLoader()
       },
       {
         path: 'Inventory',
