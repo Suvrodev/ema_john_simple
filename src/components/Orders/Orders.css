@@ -1,4 +1,16 @@
 .review_container{
     margin: 50px auto;
-
+}
+.btn_proceed{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+.cartLinkbtn a{
+    text-decoration: none;
 }
