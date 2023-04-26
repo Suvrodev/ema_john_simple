@@ -14,3 +14,23 @@
 .header a:hover{
    color: orange;
 }
+nav{
+    color: white;
+}
+.header-mail{
+    margin-left: 10px;
+}
+.header-mail button{
+    margin-left: 15px;
+    background-color: tomato;
+}
+.wlc{
+    font-weight: 700;
+    color: orange;
+}
+.mail{
+    font-weight: 700;
+    color: lawngreen;
+    font-style: italic;
+    margin-left: 10px;
+}
