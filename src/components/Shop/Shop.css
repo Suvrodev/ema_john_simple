@@ -8,7 +8,19 @@
     grid-gap: 45px;
     margin: 50px;
 }
-
+.pagination{
+    text-align: center;
+}
+.pagination button{
+    margin-left: 20px;
+}
+.pagination select{
+    background-color: greenyellow;
+    color: black;
+}
+.Selected{
+    background-color: tomato;
+}
 @media only screen and (max-width: 576px) {
     .ShopContent{
         grid-template-columns: 3fr 1fr;

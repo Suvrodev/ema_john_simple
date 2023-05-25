@@ -5,7 +5,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Cart = ({cart,handleClearCart,children}) => {
    // const {price,shipping}={cart}
-    console.log(cart)
+  //  console.log(cart)
     let Total=0;
     let Total_Shipping=0;
     let Tax=0;

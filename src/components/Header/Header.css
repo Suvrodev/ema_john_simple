@@ -1,6 +1,7 @@
 .header{
     height: 80px;
     background-color: #1C2B35;
+    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,7 +13,7 @@
     margin-left: 30px;
 }
 .header a:hover{
-   color: orange;
+   color: lightseagreen;
 }
 nav{
     color: white;
@@ -33,4 +34,8 @@ nav{
     color: lawngreen;
     font-style: italic;
     margin-left: 10px;
+}
+.activeness{
+    color: blue;
+    font-weight: 700;
 }
